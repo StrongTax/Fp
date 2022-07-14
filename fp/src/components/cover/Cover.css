@@ -7,11 +7,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
-  .F {
-    display: flex;
+  .f > h1 {
+    color: white;
     position: absolute;
-    margin-top: -80%;
+    margin-top: 100px;
   }
 
   .video {
@@ -38,7 +39,11 @@
       font-size: 70px;
       text-align: center;
     }
-  
+    .f > h1 {
+      color: white;
+      position: absolute;
+      margin-top: 100px;
+    }
     .cover-container > p {
       text-align: center;
       font-size: 22px;
