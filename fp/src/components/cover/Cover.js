@@ -4,12 +4,16 @@ import coverVideo from "../../media/coverVideo.mp4";
 
 const Cover = () => {
   return (
-    
+    <div>
+    <div className="f">
+      <h1>F</h1>    
+    </div>
     <div className="cover-container">
       <video className="video" src={coverVideo} autoPlay loop muted playsInline />
-      <div className="f">Logo</div>
+
       <h1>Sheeesh!</h1>
-      <p>Developer | Designer | Content Creator | Entrepeneur </p>
+      <p>Developer | Content Creator | Entrepeneur </p>
+    </div>
     </div>
   );
 };
