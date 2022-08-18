@@ -12,12 +12,8 @@ const Cover = () => {
     <div>
       <ParallaxProvider>
       <Parallax speed={-6}>
-        <img className="f" src={logo} alt="Logo" />
+        <h1 className="f">F</h1>
       </Parallax>
-    <Parallax speed={-4}>
-        <FaChevronDown className="icon" />
-        </Parallax>
-      </ParallaxProvider>
       <div
         className="cover-container"
         data-aos="fade-up"
@@ -31,9 +27,14 @@ const Cover = () => {
           muted
           playsInline
         />
-        <h1>Sheeesh!</h1>
+        <h1>Niccolo!</h1>
         <p>Developer | Content Creator | Entrepeneur </p>
       </div>
+      <Parallax speed={-6}>
+        <FaChevronDown className="icon" />
+      </Parallax>
+      </ParallaxProvider>
+    
     </div>
   );
 };
